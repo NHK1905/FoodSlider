@@ -209,6 +209,12 @@ header {
     transition-delay: 0, 0.9s, 1.5s, 1.5s;
 }
 
+.slide.active .btn {
+    width: 336px;
+    color: --txt-color;
+    border-radius: 40px;
+}
+
 @media (hover:hover) {
     /* Cho hover CSS vào đây */
     .main-menu a:hover {
