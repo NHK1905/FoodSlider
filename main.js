@@ -44,3 +44,6 @@ showSlide(slide_index)
 slider.querySelectorAll('.slider-control-item').forEach((item, index) => {
     item.addEventListener('click', () => showSlide(index))
 })
+
+//Mobile menu
+document.querySelector('#mb-menu-toggle').addEventListener('click', () => document.querySelector('#main-menu').classList.toggle('active'))
