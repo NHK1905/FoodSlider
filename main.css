@@ -140,9 +140,9 @@ header {
 
 .dish-img > img {
     position: absolute;
-    width: calc(100% + 470px);
-    top: -195px;
-    left: -150px;
+    width: calc(100%);
+    top: -20rem;
+    left: 0;
     transform: translateX(450px) rotate(20deg);
     transition: transform 1s ease-in-out;
 }
