@@ -9,9 +9,9 @@ let slide_index = 0
 let can_slide_play = true
 
 let hero_bgs = [
-    './images/goi-cuon-bg.jpg',
-    './images/bun-bo-bg.jpg',
-    './images/pho-ga-bg.jpg',
+    './images/wp1.jpg',
+    './images/wp2.jpg',
+    './images/wp3.jpg',
 ]
 
 showSlide = (index) => {
